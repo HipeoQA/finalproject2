@@ -10,5 +10,3 @@ def test_create_and_get_order():
     assert get_order_response.status_code == 200, "Тест провален"
     if get_order_response.status_code == 200:
         print ("Тест пройден")
-
-test_create_and_get_order()
