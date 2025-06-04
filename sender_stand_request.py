@@ -4,7 +4,8 @@ import data
 
 def create_order():
     url = configuration.BASE_URL + configuration.CREATE_ORDER_ENDPOINT
-    response = requests.post(url, json=data.order_data, headers = data.headers)
+    order_data = data.body
+    response = requests.post(url, json=order_data, headers = data.headers)
     return response
 
 def get_order_by_track(track_number):
