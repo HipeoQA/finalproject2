@@ -2,7 +2,7 @@ headers = {
     "Content-Type": "application/json"
 }
  
-order_data = {
+body = {
     "firstName": "Иван",
     "lastName": "Иванов",
     "address": "Москва, ул. Пушкина, 1",
